@@ -109,6 +109,9 @@ goToGame.addEventListener("click", function (e) {
 });
 
 restartGame.addEventListener("click", function () {
-  console.log("Restart Game");
-  setInterval("location.reload()", 100);
+  // console.log("Restart Game");
+  // setInterval("location.reload()", 100);
+  setTimeout(function(){
+   window.location.reload();
+}, 1000);
 });
