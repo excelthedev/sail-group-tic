@@ -408,6 +408,7 @@ section > span {
   border: 15px solid chocolate;
   box-sizing: border-box;
   padding: 20px;
+  font-family: 'Rubik Moonrocks', cursive;
 }
 
 .cross {
@@ -415,6 +416,7 @@ section > span {
   width: 80px;
   position: relative;
   transform: rotate(50deg);
+  font-family: 'Rubik Moonrocks', cursive;
 }
 
 .cross::after,
@@ -422,6 +424,7 @@ section > span {
   content: "";
   position: absolute;
   background-color: blue;
+  font-family: 'Rubik Moonrocks', cursive;
 }
 
 .cross::before {
@@ -429,6 +432,7 @@ section > span {
   width: 30%;
   margin-left: -19.3%;
   height: 100%;
+  font-family: 'Rubik Moonrocks', cursive;
 }
 
 .cross::after {
@@ -437,4 +441,5 @@ section > span {
   margin-top: -20%;
   width: 100%;
   margin-left: -60%;
+  font-family: 'Rubik Moonrocks', cursive;
 }
