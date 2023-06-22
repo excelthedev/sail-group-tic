@@ -207,6 +207,7 @@ input {
 /* Select player page */
 .playericon {
   gap: 1px;
+  font-family: 'Rubik Moonrocks', cursive;
 }
 .continue-btn {
   color: #000;
@@ -339,7 +340,7 @@ section > span {
   }
   .players {
     width: 45%;
-    font-family: 'Rubik Moonrocks', cursive;
+    
   }
   .playersdetails,
   .game-area {
