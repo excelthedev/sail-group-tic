@@ -193,14 +193,14 @@ input {
   outline: auto;
   border-radius: 25px;
   text-align: center;
-  color: white;
-  background-color: #286ef4;
+  color: #286ef4;
+  background-color: white;
 }
 
 .setting:hover {
   cursor: pointer;
-  color: #fff;
-  background-color: chocolate;
+  color: white;
+  background-color: #286ef4;
 }
 
 .setting-btn {
