@@ -203,6 +203,13 @@ input {
   background-color: white;
  
 }
+/* continue btn */
+#continue-game{
+  border: 1px solid #286ef4;
+  color:#286ef4;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
 
 /* Select player page */
 .playericon {
