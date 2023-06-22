@@ -298,6 +298,18 @@ section > span {
   }
 }
 
+@media screen and (min-width: 650px){
+  button#cpu-mode {
+      border: none;
+  }
+  button#friend-mode {
+      border: none;
+  }
+  
+}
+
+
+
 @media screen and (min-width: 650px) {
   .play-mode,
   .select-player,
