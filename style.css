@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;800&family=Rubik+Moonrocks&display=swap');
 
 :root {
   --animate-speed: 0.8s;
@@ -120,14 +120,20 @@ section > span {
   font-size: 2rem;
   text-align: center;
 }
+
+.title{
+  font-weight: 800;
+}
 /* Transistion and Keyframes */
 .iconX {
   transform: translateX(1800px);
   animation: heading var(--animate-speed) forwards ease-in 0.1s;
+   font-family: 'Rubik Moonrocks', cursive;
 }
 .iconO {
   transform: translateX(-1800px);
   animation: heading var(--animate-speed) forwards ease-in 0.2s;
+  font-family: 'Rubik Moonrocks', cursive;
 }
 @keyframes heading {
   to {
@@ -188,12 +194,13 @@ input {
   width: 300px;
   height: 50px;
   font-size: 40px;
-  border: 1px solid aqua;
+  border: 1px solid #5ea9ec;
   outline: auto;
   border-radius: 25px;
   text-align: center;
-  color: aqua;
+  color: #5ea9ec;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Select player page */
