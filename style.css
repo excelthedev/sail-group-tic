@@ -194,13 +194,14 @@ input {
   width: 300px;
   height: 50px;
   font-size: 40px;
-  border: 1px solid #5ea9ec;
+  font-weight: 800;
+  border: 1px solid #286ef4;
   outline: auto;
   border-radius: 25px;
   text-align: center;
-  color: #5ea9ec;
+  color: #286ef4;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
 }
 
 /* Select player page */
@@ -338,6 +339,7 @@ section > span {
   }
   .players {
     width: 45%;
+    font-family: 'Rubik Moonrocks', cursive;
   }
   .playersdetails,
   .game-area {
