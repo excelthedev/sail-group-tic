@@ -122,6 +122,8 @@ section > span {
 
 }
 
+
+
 .msg{
   color: #fff;
   font-weight: 800;
@@ -187,12 +189,12 @@ input {
   width: 200px;
   height: 50px;
   font-size: 40px;
-  border: 1px solid aqua;
+  border: 1px solid #286ef4;
   outline: auto;
   border-radius: 25px;
   text-align: center;
   color: white;
-  background-color: aqua;
+  background-color: #286ef4;
 }
 
 .setting:hover {
@@ -282,7 +284,7 @@ section > span {
   margin-bottom: 10px;
 }
 .result-box {
-  background-color: chocolate;
+  background-color: #286ef4;
   height: 15%;
   position: absolute;
   transform: translate(-0%, -0%) scale(0.98);
@@ -311,10 +313,12 @@ section > span {
   background-color: transparent;
 }
 .notifier > h1 {
-  color: aqua;
+  color: #fff;
   transform: translateX(1800px);
   animation: heading var(--animate-speed) forwards ease-in 0.15s;
   margin-top: -15px;
+  font-weight: 800;
+  font-size: 1.6rem;
 }
 .notifier > span {
   transform: translateX(-1800px);
