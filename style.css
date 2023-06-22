@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap');
+
 :root {
   --animate-speed: 0.8s;
 }
@@ -7,7 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Mulish', sans-serif;
   overflow: hidden;
   color: #000;
 }
@@ -146,10 +148,17 @@ input {
   background-color: #fff;
 }
 .cpu {
-  background-color: blue;
+  background-color: #286ef4;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1.5rem;
 }
 .friends {
-  background-color: chocolate;
+  background-color: #fdfdfd;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1.5rem;
+  
 }
 .setting {
   width: 200px;
