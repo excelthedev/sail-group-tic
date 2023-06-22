@@ -119,6 +119,17 @@ label,
 section > span {
   font-size: 2rem;
   text-align: center;
+
+}
+
+.msg{
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.close{
+  color: #fff;
 }
 
 .title{
@@ -284,6 +295,7 @@ section > span {
 .notifier {
   gap: 5px;
   height: 100%;
+  background-color: #286ef4;
 }
 .close {
   position: relative;
