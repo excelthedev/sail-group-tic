@@ -199,8 +199,8 @@ input {
 
 .setting:hover {
   cursor: pointer;
-  color: aqua;
-  background-color: white;
+  color: #fff;
+  background-color: chocolate;
 }
 
 .setting-btn {
@@ -339,6 +339,9 @@ section > span {
   }
   
 }
+ .game-area{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
 
 
 
@@ -369,6 +372,7 @@ section > span {
   .game-area {
     width: 45%;
   }
+   .game-area
 }
 @media screen and (max-height: 550px) {
   .play-mode,
