@@ -82,6 +82,12 @@ section > span {
 section {
   flex-direction: row;
 }
+/* Play Mode remove border  */
+.mode-instruction,
+.play-mode-options,{
+  border: none;
+}
+
 /* Display Background */
 .play-mode,
 .select-player,
