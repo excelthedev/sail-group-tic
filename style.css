@@ -120,7 +120,7 @@ section > span {
   font-size: 2rem;
   text-align: center;
   font-size: 2.4rem;
-    background: -webkit-linear-gradient(#286ef4, chocolate);
+    background: -webkit-linear-gradient(45deg,#286ef4, chocolate);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
