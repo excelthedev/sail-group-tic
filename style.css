@@ -326,6 +326,12 @@ section > span {
   transform: translateX(-1800px);
   animation: heading var(--animate-speed) forwards ease-in 0.15s;
 }
+/*New-game  */
+#Restart{
+  width: 300px;
+  height: 80px;
+}
+
 @keyframes heading {
   to {
     transform: translateX(0);
