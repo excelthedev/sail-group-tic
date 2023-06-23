@@ -103,7 +103,7 @@ section {
 h1 {
   font-weight: 900;
   font-size: 7rem;
-  color: blue;
+  color: #286ef4;
 }
 .iconO,
 .O-select {
@@ -138,6 +138,7 @@ section > span {
 
 .title{
   font-weight: 800;
+  color: #286ef4;
 }
 /* Transistion and Keyframes */
 .iconX {
